@@ -48,4 +48,5 @@ for (word of cleanedArr) {
   sentence += word + " ";
 }
 
-console.log(sentence);
+//logs out the sentence variable with the added whitespace removed
+console.log(sentence.trim());
